@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.MainActivity">
+
+    <com.ghedeon.dottedlineview.DottedLineView
+        android:id="@+id/dotted_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:radius="4dp"
+        app:minGap="8dp"
+        app:color="@color/colorAccent" />
+
+</android.support.constraint.ConstraintLayout>
